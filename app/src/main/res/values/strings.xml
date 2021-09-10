@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="publisher">Emine İNAN</string>
+    <string name="aug_30_2021">AUG 30, 2021</string>
+    <string name="news_mucilage_title">Istanbul entirely cleared of mucilage</string>
+    <string name="news_nurses_title">Nurses arrested in Istanbul over fake COVID-19 vaccine passes</string>
+    <string name="sep_07_2021">SEP 07, 2021</string>
+    <string name="news_school">New school year kicks off in Turkey with masks and joy</string>
+    <string name="news_school_detail">After more than a year, Turkey relaunched in-person education on Monday. Some 18 million students and more than a million teachers returned to schools as the country decided to end online education for the new school year. Students and teachers cheered the first day of school, hailing a reunion long delayed due to the coronavirus pandemic. Though mandatory protective masks hid the smiles.</string>
+    <string name="sep_06_2021">SEP 06, 2021</string>
+    <string name="news_school_subdetail">After more than a year, Turkey relaunched in-person education on Monday</string>
+    <string name="news_mucilage_detail">Some five months after a thick, slimy substance called marine mucilage or sea snot covered the Marmara Sea, Istanbul shores regained their old blue. Large globules of mucilage that had been sighted since March off the coast of Turkey’s largest city of Istanbul are now absent, aerial and underwater footage on the beaches of Istanbul show, confirming authorities declaration that the snot is gone.</string>
+    <string name="news_vaccine_detail">Police detained six people, including three nurses, for preparing fake coronavirus vaccine passes for unvaccinated people in Istanbul. Acting on a tip-off, police apprehended the suspects on Tuesday. The suspects are accused of forging vaccine passes in exchange for money at a private hospital in the city’s Bahçelievler district.</string>
+    <string name="mucilage_image">Mucilage Image</string>
+</resources>

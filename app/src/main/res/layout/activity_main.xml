@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="6dp"
+                android:paddingTop="6dp"
+                android:paddingRight="6dp">
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutSix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutSeven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutEight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutNine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutTen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutEleven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutTwelve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutThirteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutFourteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutFifteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="goToDetailPage"
+                    android:paddingTop="6dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
