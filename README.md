@@ -1,4 +1,4 @@
-#KeKod-NewsApp
+# KeKod-NewsApp
 KeKod Challenge, Project 2 - News App with Fragments
 
 ## Preview
